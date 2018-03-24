@@ -1,7 +1,7 @@
 # i18n
 
-|type|arrtibute|describe|use
-|---|---|---|---|---|
+|type|arrtibute|describe|use|
+|---|---|---|---|
 |common|i18n-c|common|i18n-c='key_name'|
 |keywords|i18n-k|keywords|i18n-k='key_name'|
 |page|i18n-p|page|i18n-p='key_name'|
