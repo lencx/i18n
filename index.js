@@ -12,8 +12,6 @@ window.addEventListener('load', () => {
             hasI18n()
         })
     })
-    // if(document.querySelector('[i18n-unset]') === null) {
-    // }
 })
 
 function hasI18n() {
@@ -40,8 +38,8 @@ function hasI18n() {
                                     i18nPlaceholder('i18n-p-ph', data)
                                 }
                             })
-                            break
                         }
+                        break
                     case 'i18n-c':
                         fetchData({
                             url: `/i18n/glob/common.${lang}.json`,
@@ -67,7 +65,8 @@ function hasI18n() {
                             j.classList.add(`i18n-${lang}`)
                         })
                         break
-                    // case 'i18n'
+                    default:
+                        break
                 }
             }
     
@@ -100,10 +99,6 @@ function i18nImg(type, data) {
 function i18nPlaceholder(type, data) {
     Array.from(document.querySelectorAll(`[${type}]`)).some(j => j.setAttribute('placeholder', data[j.getAttribute(type)]))
 }
-
-
-
-// function
 
 function getPath() {
     let i18nPath = document.querySelector('[i18n-path]')

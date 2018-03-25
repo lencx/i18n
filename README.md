@@ -1,11 +1,11 @@
 # i18n
 
-## Project Structure
-
 ```bash
 yarn
 yarn dev
 ```
+
+## Project Structure
 
 ```
 [project]
