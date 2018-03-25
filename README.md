@@ -69,6 +69,6 @@ the HTML
 
 `i18n-unset` value:
 
-* When the value is not set, the current page is completely not internationalized
+* When the value is not set, the current page is completely not internationalized
 
 * When the 'p' value is set, the current page has international content in `common(common.{lang}.json)` and `keyword(keyword.{lang}.json)`
